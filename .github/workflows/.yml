@@ -17,10 +17,10 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Sync files to server
-        run: |
-          rsync -avz --delete --exclude='.git' ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.REMOTE_DIR }}
         env:
           RSYNC_RSH: ssh
+        run: |
+          rsync -avz --delete --exclude='.git' ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.REMOTE_DIR }}
 
       - name: Restart Streamlit service on server
         run: |
