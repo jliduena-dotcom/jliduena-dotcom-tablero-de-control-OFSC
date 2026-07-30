@@ -1,0 +1,12 @@
+# Bases fuente pesadas — no se versionan, ya quedan resumidas en el CSV
+Repositorio_OFSC_Diario_Avance.xlsx
+RM_Comercial.xlsb
+
+# Entornos virtuales
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/secrets.toml
