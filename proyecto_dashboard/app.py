@@ -15,6 +15,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
+from pathlib import Path
 
 # ─────────────────────────────────────────────────────────────────────────
 # CONFIGURACIÓN GENERAL
@@ -26,7 +27,13 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-DATA_PATH = "data/dashboard_data.csv"
+# IMPORTANTE: ruta calculada relativa a la ubicación de ESTE archivo
+# (Path(__file__).parent), no al directorio de trabajo del proceso.
+# En Streamlit Cloud, cuando app.py vive en una subcarpeta, el working
+# directory sigue siendo la raíz del repo — una ruta relativa tipo
+# "data/dashboard_data.csv" fallaría con FileNotFoundError.
+BASE_DIR = Path(__file__).resolve().parent
+DATA_PATH = BASE_DIR / "data" / "dashboard_data.csv"
 PROY_SERVICIOS_FACTOR = 1.63  # constante original: servicios proyectados por instalación
 
 COLUMNAS_ESPERADAS = [
