@@ -11,15 +11,16 @@ Autor original del HTML: generar_dashboard.py (no disponible en esta migración)
 Esta versión: reconstruida a partir del esquema de datos decodificado del HTML.
 """
 
+import os
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 from pathlib import Path
 
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 # CONFIGURACIÓN GENERAL
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 st.set_page_config(
     page_title="Dashboard Avance Operativo — OFSC",
     page_icon="📊",
@@ -48,15 +49,28 @@ GRUPO_COLORES = {
 }
 
 
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 # CARGA DE DATOS
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
+# Nota: antes se usaba @st.cache_data sin considerar que la ruta del CSV
+# puede no cambiar (mismo objeto Path) aunque su contenido se actualice.
+# Para forzar la invalidación de la caché cuando el CSV en disco cambia,
+# añadimos el `mtime` (timestamp de modificación) como argumento al
+# wrapper cache. Para archivos subidos desde el uploader (objetos tipo
+# BytesIO/UploadedFile) la instancia cambia y la caché se invalida
+# automáticamente.
+
 @st.cache_data
-def cargar_datos(path_or_buffer) -> pd.DataFrame:
+def cargar_datos(path_or_buffer, mtime=None) -> pd.DataFrame:
     if hasattr(path_or_buffer, "name") and path_or_buffer.name.endswith((".xlsx", ".xls")):
         df = pd.read_excel(path_or_buffer)
     else:
-        df = pd.read_csv(path_or_buffer)
+        # Si path_or_buffer es un Path/str leemos desde ruta, si es
+        # un objeto subido (UploadedFile) lo pasamos directamente a pandas.
+        if isinstance(path_or_buffer, (str, Path)):
+            df = pd.read_csv(path_or_buffer)
+        else:
+            df = pd.read_csv(path_or_buffer)
 
     faltantes = [c for c in COLUMNAS_ESPERADAS if c not in df.columns]
     if faltantes:
@@ -75,9 +89,9 @@ def cargar_datos(path_or_buffer) -> pd.DataFrame:
     return df
 
 
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 # FUNCIONES DE NEGOCIO (equivalentes a las del HTML original)
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 def efectividad(df: pd.DataFrame) -> float:
     """Completado / (Completado + No completado) * 100"""
     comp = (df["estado"] == "Completado").sum()
@@ -104,9 +118,9 @@ def badge_clase(pct_valor: int) -> str:
     return "🔴"
 
 
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 # SIDEBAR: CARGA DE ARCHIVO + FILTROS
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 st.sidebar.title("⚙️ Datos y filtros")
 
 archivo_subido = st.sidebar.file_uploader(
@@ -119,7 +133,17 @@ archivo_subido = st.sidebar.file_uploader(
     ),
 )
 
-df = cargar_datos(archivo_subido) if archivo_subido is not None else cargar_datos(DATA_PATH)
+# Pasamos el `mtime` del archivo en disco al llamar a cargar_datos para
+# que st.cache_data invalide la caché cuando el contenido del CSV se
+# actualice (aunque la ruta permanezca igual).
+if archivo_subido is not None:
+    df = cargar_datos(archivo_subido)
+else:
+    try:
+        mtime = DATA_PATH.stat().st_mtime
+    except Exception:
+        mtime = None
+    df = cargar_datos(DATA_PATH, mtime)
 
 st.sidebar.markdown("---")
 st.sidebar.subheader("Filtros")
@@ -156,9 +180,9 @@ if st.sidebar.button("🔄 Restablecer filtros"):
 st.sidebar.markdown("---")
 st.sidebar.caption(f"Registros totales: {len(df):,} · Con filtros: {len(data):,}")
 
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 # ENCABEZADO
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 col_title, col_badge = st.columns([5, 1])
 with col_title:
     st.title("📊 Dashboard Avance Operativo — OFSC")
@@ -171,9 +195,9 @@ tab_dash, tab_proy, tab_resumen, tab_tec = st.tabs(
     ["📊 Dashboard", "📆 Proyección", "🎯 Resumen Ejecutivo", "👥 Control Técnicos"]
 )
 
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 # TAB 1: DASHBOARD
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 with tab_dash:
     if data.empty:
         st.warning("No hay registros para los filtros seleccionados.")
@@ -307,9 +331,9 @@ with tab_dash:
         df_detalle = pd.DataFrame(detalle).sort_values("Total", ascending=False)
         st.dataframe(df_detalle, use_container_width=True, hide_index=True)
 
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 # TAB 2: PROYECCIÓN
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 with tab_proy:
     if data.empty:
         st.warning("No hay registros para los filtros seleccionados.")
@@ -360,9 +384,9 @@ with tab_proy:
         df_proy = pd.DataFrame(filas_p).sort_values("Total", ascending=False)
         st.dataframe(df_proy, use_container_width=True, hide_index=True)
 
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 # TAB 3: RESUMEN EJECUTIVO
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 with tab_resumen:
     if data.empty:
         st.warning("No hay registros para los filtros seleccionados.")
@@ -415,9 +439,9 @@ with tab_resumen:
         fig10.update_layout(height=350, showlegend=False)
         st.plotly_chart(fig10, use_container_width=True)
 
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 # TAB 4: CONTROL TÉCNICOS
-# ─────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 with tab_tec:
     if data.empty:
         st.warning("No hay registros para los filtros seleccionados.")
