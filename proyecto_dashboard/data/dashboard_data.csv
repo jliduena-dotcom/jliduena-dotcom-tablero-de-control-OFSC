@@ -86,8 +86,8 @@ MAICAO SATELCARIBE,COMCEL DANCELL,AM,Arreglos,Completado,DTH,,True,2026-08-05,,R
 MAICAO SATELCARIBE,COMCEL DANCELL,PM,Arreglos,Completado,DTH,,True,2026-08-05,,Red Claro,Resto de ordenes,MIGUEL ANGEL GOMEZ IMBRETH
 MANAURE,COMCEL DANCELL,PM,Arreglos,Pendiente,DTH,,False,2026-08-05,,Red Claro,Resto de ordenes,MIGUEL ANGEL GOMEZ IMBRETH
 EL BANCO SATELCARIBE,COMCEL COMUNICACIONES DEL SUR,AM,Instalaciones,Completado,DTH,,True,2026-08-05,PDV,Red Claro,Resto de ordenes,JESUS GREGORIO PAREJO ROBLES
-EL BANCO SATELCARIBE,COMCEL COMUNICACIONES DEL SUR,AM,Arreglos,Iniciado,DTH,,True,2026-08-05,,Red Claro,Resto de ordenes,JESUS GREGORIO PAREJO ROBLES
-EL BANCO SATELCARIBE,COMCEL COMUNICACIONES DEL SUR,PM,Otros,Pendiente,DTH,,False,2026-08-05,OTROS,Red Claro,Resto de ordenes,JESUS GREGORIO PAREJO ROBLES
+EL BANCO SATELCARIBE,COMCEL COMUNICACIONES DEL SUR,AM,Arreglos,Completado,DTH,,True,2026-08-05,,Red Claro,Resto de ordenes,JESUS GREGORIO PAREJO ROBLES
+EL BANCO SATELCARIBE,COMCEL COMUNICACIONES DEL SUR,PM,Otros,Iniciado,DTH,,True,2026-08-05,OTROS,Red Claro,Resto de ordenes,JESUS GREGORIO PAREJO ROBLES
 HATILLO DE LOBA,COMCEL COMUNICACIONES DEL SUR,AM,Instalaciones,Completado,DTH,,True,2026-08-05,PDV,Red Claro,Resto de ordenes,LUIS FERNANDO MORA VERGARA
 EL BANCO SATELCARIBE,COMCEL COMUNICACIONES DEL SUR,PM,Arreglos,Completado,DTH,,True,2026-08-05,,Red Claro,Resto de ordenes,LUIS FERNANDO MORA VERGARA
 FUNDACION SATELCARIBE,COMCEL MC MULTICELL S.A.S,PM,Arreglos,Completado,DTH,,True,2026-08-05,,Red Claro,Resto de ordenes,ARMANDO LUIS NAVARRO ESCORCIA
@@ -122,7 +122,7 @@ GUARANDA,TELECELL LORICA SAS,AM,Arreglos,No completado,DTH,CLIENTE NO ATIENDE,Tr
 GUARANDA,TELECELL LORICA SAS,AM,Arreglos,No completado,DTH,CLIENTE RECIBE PERO NO PUEDE ATENDER,True,2026-08-05,,Red Claro,Resto de ordenes,EVER ENRIQUE NARVAEZ DOMINGUEZ
 SAN BENITO ABAD,CLARO COLOMBIA,AM,Instalaciones,Cancelado,DTH,,True,2026-08-05,CALLE,Red Claro,Resto de ordenes,San Benito Abad
 SAN BENITO ABAD,COMCEL CELUMAX JT COMUNICACIONES SAS,PM,Instalaciones,Completado,DTH,,True,2026-08-05,CALLE,Red Claro,Resto de ordenes,CARMELO DAVID CASTRO BENITEZ
-SAN BENITO ABAD,COMCEL CELUMAX JT COMUNICACIONES SAS,PM,Instalaciones,Iniciado,DTH,,True,2026-08-05,CALLE,Red Claro,Resto de ordenes,CARMELO DAVID CASTRO BENITEZ
+SAN BENITO ABAD,COMCEL CELUMAX JT COMUNICACIONES SAS,PM,Instalaciones,Completado,DTH,,True,2026-08-05,CALLE,Red Claro,Resto de ordenes,CARMELO DAVID CASTRO BENITEZ
 EL ROBLE,COMCEL CELUNORTE COMUNICACIONES S.A.S,PM,Instalaciones,Pendiente,DTH,,False,2026-08-05,PDV,Red Claro,Resto de ordenes,RAFAEL SANTIAGO TRONCOSO RAMREZ
 SINCELEJO CABLECENTRO,COMCEL INVERSIONES GERA S.A.S.,AM,Arreglos,Completado,DTH,,True,2026-08-05,,Red Claro,Resto de ordenes,YEISON CASARRUBIA FUENTES
 SINCELEJO CABLECENTRO,COMCEL MAGANET.COM SAS,PM,Arreglos,Pendiente,DTH,,False,2026-08-05,,Red Claro,Resto de ordenes,MARCOS ANTONIO RICARDO HERNANDEZ
@@ -284,7 +284,7 @@ TURBACO,INMEL INGENIERIA,AM,Instalaciones,Completado,FTTX,,True,2026-08-05,EYN,R
 CARTAGENA,INMEL INGENIERIA,PM,Instalaciones,Pendiente,FTTH,,False,2026-08-05,TMK OUT BOUND,Red neutra,Resto de ordenes,YEFERSON LUIS GUZMAN MELENDEZ
 MONTERIA,SICTE LTDA,AM,Instalaciones,Pendiente,Pymes,,False,2026-08-05,EYN,Red Claro,Resto de ordenes,Corredor MONTERIA Pymes
 MONTERIA,INMEL INGENIERIA,AM,Arreglos,Completado,Pymes,,True,2026-08-05,,Red Claro,Resto de ordenes,IBERTO MARQUEZ ROMERO
-MONTERIA,INMEL INGENIERIA,AM,Arreglos,Iniciado,Pymes,,True,2026-08-05,,Red Claro,Resto de ordenes,IBERTO MARQUEZ ROMERO
+MONTERIA,INMEL INGENIERIA,AM,Arreglos,Completado,Pymes,,True,2026-08-05,,Red Claro,Resto de ordenes,IBERTO MARQUEZ ROMERO
 MONTERIA,INMEL INGENIERIA,PM,Arreglos,Pendiente,Pymes,,False,2026-08-05,,Red Claro,Resto de ordenes,IBERTO MARQUEZ ROMERO
 MONTERIA,INMEL INGENIERIA,PM,Arreglos,Pendiente,Pymes,,False,2026-08-05,,Red Claro,Resto de ordenes,IBERTO MARQUEZ ROMERO
 SINCELEJO,INMEL INGENIERIA,AM,Traslados,Completado,Pymes,,True,2026-08-05,OTROS,Red Claro,Resto de ordenes,JORGE LUIS TURIZO UPARELA
@@ -294,8 +294,8 @@ SINCELEJO,INMEL INGENIERIA,PM,Instalaciones,Pendiente,FTTX,,False,2026-08-05,EYN
 SINCELEJO,INMEL INGENIERIA,PM,Instalaciones,Pendiente,Pymes,,False,2026-08-05,CALLE,Red Claro,Resto de ordenes,JORGE LUIS TURIZO UPARELA
 SINCELEJO,INMEL INGENIERIA,AM,Arreglos,Completado,Pymes,,True,2026-08-05,,Red Claro,Resto de ordenes,EDWAR JUNIOR MARTINEZ ARRIETA
 SINCELEJO,INMEL INGENIERIA,AM,Arreglos,Completado,Pymes,,True,2026-08-05,,Red Claro,Resto de ordenes,EDWAR JUNIOR MARTINEZ ARRIETA
+SINCELEJO,INMEL INGENIERIA,PM,Arreglos,Completado,Pymes,,True,2026-08-05,,Red Claro,Resto de ordenes,EDWAR JUNIOR MARTINEZ ARRIETA
 SINCELEJO,INMEL INGENIERIA,PM,Arreglos,Iniciado,Pymes,,True,2026-08-05,,Red Claro,Resto de ordenes,EDWAR JUNIOR MARTINEZ ARRIETA
-SINCELEJO,INMEL INGENIERIA,PM,Arreglos,Pendiente,Pymes,,False,2026-08-05,,Red Claro,Resto de ordenes,EDWAR JUNIOR MARTINEZ ARRIETA
 SINCELEJO,INMEL INGENIERIA,PM,Arreglos,Pendiente,Pymes,,False,2026-08-05,,Red Claro,Resto de ordenes,EDWAR JUNIOR MARTINEZ ARRIETA
 SINCELEJO,INMEL INGENIERIA,AM,Arreglos,Cancelado,Pymes,,True,2026-08-05,,Red Claro,Resto de ordenes,EDWAR JUNIOR MARTINEZ ARRIETA
 AGUACHICA,DOMINION,AM,Arreglos,Completado,FTTX,,True,2026-08-05,,Red Claro,Resto de ordenes,BREINER ARMANDO ALVAREZ CORREDOR
@@ -345,14 +345,14 @@ BARRANQUILLA,DOMINION,AM,Instalaciones,Completado,FTTH,,True,2026-08-05,FIDELIZA
 BARRANQUILLA,DOMINION,AM,Instalaciones,Completado,FTTH,,True,2026-08-05,SAC,Red neutra,Brownfield,GUSTAVO ADOLFO MEDINA CALLEJAS
 BARRANQUILLA,DOMINION,PM,Instalaciones,Pendiente,FTTH,,False,2026-08-05,FIDELIZACION,Red neutra,Brownfield,GUSTAVO ADOLFO MEDINA CALLEJAS
 BARRANQUILLA,DOMINION,AM,Instalaciones,Completado,FTTH,,True,2026-08-05,SAC,Red Claro,Brownfield,GUSTAVO JOSE MORALES JIMENEZ
-BARRANQUILLA,DOMINION,AM,Instalaciones,Iniciado,FTTH,,True,2026-08-05,FIDELIZACION,Red neutra,Brownfield,GUSTAVO JOSE MORALES JIMENEZ
+BARRANQUILLA,DOMINION,AM,Instalaciones,Iniciado,FTTH,,True,2026-08-05,FIDELIZACION,Red Claro,Brownfield,GUSTAVO JOSE MORALES JIMENEZ
 BARRANQUILLA,DOMINION,PM,Instalaciones,Pendiente,FTTH,,False,2026-08-05,SAC,Red neutra,Brownfield,GUSTAVO JOSE MORALES JIMENEZ
 BARRANQUILLA,DOMINION,AM,Instalaciones,Completado,FTTH,,True,2026-08-05,SAC,Red Claro,Brownfield,HERIBERTO SEGUNDO HERNANDEZ RIVERA
 BARRANQUILLA,DOMINION,AM,Instalaciones,Iniciado,FTTH,,True,2026-08-05,FIDELIZACION,Red Claro,Brownfield,HERIBERTO SEGUNDO HERNANDEZ RIVERA
 BARRANQUILLA,DOMINION,PM,Instalaciones,Pendiente,FTTH,,False,2026-08-05,FIDELIZACION,Red neutra,Brownfield,HERIBERTO SEGUNDO HERNANDEZ RIVERA
 BARRANQUILLA,DOMINION,AM,Instalaciones,Completado,FTTH,,True,2026-08-05,SAC,Red Claro,Brownfield,JERSON MARTIN LOPEZ ESCANEO
 BARRANQUILLA,DOMINION,AM,Instalaciones,No completado,FTTH,CLIENTE RECIBE PERO NO PUEDE ATENDER,True,2026-08-05,SAC,Red neutra,Brownfield,JERSON MARTIN LOPEZ ESCANEO
-BARRANQUILLA,DOMINION,PM,Instalaciones,Pendiente,FTTH,,False,2026-08-05,CONTENCION,Red Claro,Brownfield,JERSON MARTIN LOPEZ ESCANEO
+BARRANQUILLA,DOMINION,PM,Instalaciones,en ruta,FTTH,,False,2026-08-05,CONTENCION,Red Claro,Brownfield,JERSON MARTIN LOPEZ ESCANEO
 BARRANQUILLA,DOMINION,AM,Instalaciones,Completado,FTTH,,True,2026-08-05,SAC,Red Claro,Brownfield,JESUS ALBERTO GOMEZ GONGORA JESUS ALBERT
 BARRANQUILLA,DOMINION,AM,Instalaciones,Iniciado,FTTH,,True,2026-08-05,CAV,Red neutra,Brownfield,JESUS ALBERTO GOMEZ GONGORA JESUS ALBERT
 BARRANQUILLA,DOMINION,PM,Instalaciones,Pendiente,FTTH,,False,2026-08-05,FIDELIZACION,Red neutra,Brownfield,JESUS ALBERTO GOMEZ GONGORA JESUS ALBERT
@@ -517,7 +517,6 @@ BARRANQUILLA,DOMINION,AM,Arreglos,Completado,FTTH,,True,2026-08-05,,Red Claro,Re
 BARRANQUILLA,DOMINION,AM,Arreglos,en ruta,FTTH,,False,2026-08-05,,Red Claro,Resto de ordenes,DARWIN RAFAEL DIAZ BENITEZ
 BARRANQUILLA,DOMINION,AM,Postventa,Pendiente,FTTH,,False,2026-08-05,SAC,Red Claro,Resto de ordenes,DARWIN RAFAEL DIAZ BENITEZ
 BARRANQUILLA,DOMINION,AM,Arreglos,Pendiente,FTTH,,False,2026-08-05,,Red Claro,Resto de ordenes,DARWIN RAFAEL DIAZ BENITEZ
-BARRANQUILLA,DOMINION,PM,Arreglos,Pendiente,FTTH,,False,2026-08-05,,Red Claro,Resto de ordenes,DARWIN RAFAEL DIAZ BENITEZ
 BARRANQUILLA,DOMINION,AM,Arreglos,Cancelado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,DARWIN RAFAEL DIAZ BENITEZ
 BARRANQUILLA,DOMINION,AM,Arreglos,Completado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,DAVID JOSE PANA ARIZA
 BARRANQUILLA,DOMINION,AM,Arreglos,Completado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,DAVID JOSE PANA ARIZA
@@ -542,8 +541,8 @@ BARRANQUILLA,DOMINION,AM,Arreglos,Pendiente,FTTH,,False,2026-08-05,,Red Claro,Re
 BARRANQUILLA,DOMINION,PM,Arreglos,Pendiente,FTTH,,False,2026-08-05,,Red Claro,Resto de ordenes,GUILLERMO JOSE MOLINARES GONZALEZ
 BARRANQUILLA,DOMINION,AM,Arreglos,Completado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,JHONATAN DAVID ORELLANO BANDOUX
 BARRANQUILLA,DOMINION,AM,Arreglos,No completado,FTTH,CLIENTE NO ATIENDE,True,2026-08-05,,Red Claro,Resto de ordenes,JHONATAN DAVID ORELLANO BANDOUX
-BARRANQUILLA,DOMINION,AM,Arreglos,Iniciado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,JHONATAN DAVID ORELLANO BANDOUX
-BARRANQUILLA,DOMINION,AM,Arreglos,Pendiente,FTTH,,False,2026-08-05,,Red Claro,Resto de ordenes,JHONATAN DAVID ORELLANO BANDOUX
+BARRANQUILLA,DOMINION,AM,Arreglos,Completado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,JHONATAN DAVID ORELLANO BANDOUX
+BARRANQUILLA,DOMINION,AM,Arreglos,en ruta,FTTH,,False,2026-08-05,,Red Claro,Resto de ordenes,JHONATAN DAVID ORELLANO BANDOUX
 BARRANQUILLA,DOMINION,PM,Arreglos,Pendiente,FTTH,,False,2026-08-05,,Red Claro,Resto de ordenes,JHONATAN DAVID ORELLANO BANDOUX
 BARRANQUILLA,DOMINION,AM,Arreglos,No completado,FTTH,CLIENTE NO ATIENDE,True,2026-08-05,,Red Claro,Resto de ordenes,JORGE ELIECER MUOZ VILLANUEVA
 BARRANQUILLA,DOMINION,AM,Arreglos,Iniciado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,JORGE ELIECER MUOZ VILLANUEVA
@@ -566,6 +565,7 @@ BARRANQUILLA,DOMINION,AM,Arreglos,Iniciado,FTTH,,True,2026-08-05,,Red Claro,Rest
 BARRANQUILLA,DOMINION,PM,Arreglos,Pendiente,FTTH,,False,2026-08-05,,Red Claro,Resto de ordenes,MANUEL DE JESUS HERNANDEZ ROQUEME
 BARRANQUILLA,DOMINION,AM,Arreglos,Completado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,NEIDER DARIO ESCORCIA SEVERICHE
 BARRANQUILLA,DOMINION,AM,Arreglos,Iniciado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,NEIDER DARIO ESCORCIA SEVERICHE
+BARRANQUILLA,DOMINION,PM,Arreglos,Pendiente,FTTH,,False,2026-08-05,,Red Claro,Resto de ordenes,NEIDER DARIO ESCORCIA SEVERICHE
 BARRANQUILLA,DOMINION,PM,Arreglos,Pendiente,FTTH,,False,2026-08-05,,Red Claro,Resto de ordenes,NEIDER DARIO ESCORCIA SEVERICHE
 BARRANQUILLA,DOMINION,AM,Arreglos,Cancelado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,NEIDER DARIO ESCORCIA SEVERICHE
 BARRANQUILLA,DOMINION,AM,Arreglos,Completado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,PEDRO LUIS VIZCAINO AHUMADA
@@ -870,8 +870,8 @@ SABANALARGA,DOMINION,AM,Arreglos,Completado,FTTH,,True,2026-08-05,,Red Claro,Res
 SABANALARGA,DOMINION,AM,Arreglos,Completado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,GUSTAVO ADOLFO ARIZA PACHECO
 SABANALARGA,DOMINION,AM,Postventa,Completado,FTTH,,True,2026-08-05,OTROS,Red Claro,Resto de ordenes,GUSTAVO ADOLFO ARIZA PACHECO
 SABANALARGA,DOMINION,AM,Arreglos,Completado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,GUSTAVO ADOLFO ARIZA PACHECO
-SABANALARGA,DOMINION,PM,Instalaciones,Pendiente,FTTH,,False,2026-08-05,CALLE,Red Claro,Resto de ordenes,GUSTAVO ADOLFO ARIZA PACHECO
 SABANALARGA,DOMINION,PM,Postventa,Pendiente,FTTH,,False,2026-08-05,,Red Claro,Resto de ordenes,GUSTAVO ADOLFO ARIZA PACHECO
+SABANALARGA,DOMINION,PM,Instalaciones,Pendiente,FTTH,,False,2026-08-05,CALLE,Red Claro,Resto de ordenes,GUSTAVO ADOLFO ARIZA PACHECO
 SABANALARGA,DOMINION,PM,Arreglos,Pendiente,FTTH,,False,2026-08-05,,Red Claro,Resto de ordenes,GUSTAVO ADOLFO ARIZA PACHECO
 SAN ANDRES,DOMINION,AM,Instalaciones,Completado,FTTH,,True,2026-08-05,CALLE,Red Claro,Resto de ordenes,DIONY JESUS MARTINEZ GUZMAN
 SAN ANDRES,DOMINION,AM,Arreglos,Completado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,DIONY JESUS MARTINEZ GUZMAN
@@ -1059,7 +1059,7 @@ SANTA MARTA,DOMINION,PM,Instalaciones,Pendiente,Masivo Bidireccional,,False,2026
 SANTA MARTA,DOMINION,PM,Postventa,Pendiente,Masivo Bidireccional,,False,2026-08-05,OTROS,Red Claro,Resto de ordenes,OMAR EDIEL PEREZ CANTILLO
 SANTA MARTA,DOMINION,AM,Instalaciones,Completado,Masivo Bidireccional,,True,2026-08-05,ECOMMERCE ASISTIDO,Red Claro,Resto de ordenes,YORK SADAN CAMARGO RIVERA
 SANTA MARTA,DOMINION,AM,Instalaciones,Completado,Masivo Bidireccional,,True,2026-08-05,ECOMMERCE ASISTIDO,Red Claro,Resto de ordenes,YORK SADAN CAMARGO RIVERA
-SANTA MARTA,DOMINION,AM,Traslados,Iniciado,Masivo Bidireccional,,True,2026-08-05,SAC,Red Claro,Resto de ordenes,YORK SADAN CAMARGO RIVERA
+SANTA MARTA,DOMINION,AM,Traslados,Completado,Masivo Bidireccional,,True,2026-08-05,SAC,Red Claro,Resto de ordenes,YORK SADAN CAMARGO RIVERA
 SANTA MARTA,DOMINION,PM,Instalaciones,Pendiente,Masivo Bidireccional,,False,2026-08-05,,Red Claro,Resto de ordenes,YORK SADAN CAMARGO RIVERA
 SANTA MARTA,DOMINION,PM,Instalaciones,Pendiente,Masivo Bidireccional,,False,2026-08-05,SAC,Red Claro,Resto de ordenes,YORK SADAN CAMARGO RIVERA
 SANTA MARTA,DOMINION,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,ACOSTA FERNANDEZ OSCAR ALBETO
@@ -1332,8 +1332,8 @@ SOLEDAD,DOMINION,PM,Postventa,Pendiente,FTTH,,False,2026-08-05,SAC,Red Claro,Res
 BARRANQUILLA,DOMINION,AM,Arreglos,Completado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,RAFAEL RICARDO TURIZO RODRIGUEZ
 SOLEDAD,DOMINION,AM,Arreglos,Completado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,RAFAEL RICARDO TURIZO RODRIGUEZ
 BARRANQUILLA,DOMINION,AM,Arreglos,Completado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,RAFAEL RICARDO TURIZO RODRIGUEZ
-SOLEDAD,DOMINION,AM,Arreglos,Iniciado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,RAFAEL RICARDO TURIZO RODRIGUEZ
-SOLEDAD,DOMINION,AM,Arreglos,Pendiente,FTTH,,False,2026-08-05,,Red Claro,Resto de ordenes,RAFAEL RICARDO TURIZO RODRIGUEZ
+SOLEDAD,DOMINION,AM,Arreglos,Completado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,RAFAEL RICARDO TURIZO RODRIGUEZ
+SOLEDAD,DOMINION,AM,Arreglos,en ruta,FTTH,,False,2026-08-05,,Red Claro,Resto de ordenes,RAFAEL RICARDO TURIZO RODRIGUEZ
 SOLEDAD,DOMINION,PM,Arreglos,Pendiente,FTTH,,False,2026-08-05,,Red Claro,Resto de ordenes,RAFAEL RICARDO TURIZO RODRIGUEZ
 SOLEDAD,DOMINION,PM,Arreglos,Pendiente,FTTH,,False,2026-08-05,,Red Claro,Resto de ordenes,RAFAEL RICARDO TURIZO RODRIGUEZ
 SOLEDAD,DOMINION,AM,Arreglos,Completado,FTTH,,True,2026-08-05,,Red Claro,Resto de ordenes,ROBERT ENRIQUE CAMARGO ARAGON
@@ -1439,7 +1439,7 @@ VALLEDUPAR,DOMINION,PM,Traslados,Pendiente,FTTH,,False,2026-08-05,SAC,Red Claro,
 VALLEDUPAR,DOMINION,PM,Instalaciones,Pendiente,FTTH,,False,2026-08-05,TMK OUT BOUND,Red neutra,Resto de ordenes,ALEXANDER MENGUAL GARCIA
 VALLEDUPAR,DOMINION,AM,Traslados,No completado,FTTH,VENTA DEVUELTA AL ASESOR,True,2026-08-05,CAV,Red Claro,Resto de ordenes,DANIEL FRANCISCO TEHERAN LOPERA
 VALLEDUPAR,DOMINION,AM,Instalaciones,Completado,FTTH,,True,2026-08-05,CAV,Red Claro,Resto de ordenes,DANIEL FRANCISCO TEHERAN LOPERA
-VALLEDUPAR,DOMINION,AM,Instalaciones,Iniciado,FTTH,,True,2026-08-05,CALLE,Red neutra,Resto de ordenes,DANIEL FRANCISCO TEHERAN LOPERA
+VALLEDUPAR,DOMINION,AM,Instalaciones,Iniciado,FTTH,,True,2026-08-05,CALLE,Red Claro,Resto de ordenes,DANIEL FRANCISCO TEHERAN LOPERA
 VALLEDUPAR,DOMINION,PM,Traslados,Pendiente,FTTH,,False,2026-08-05,CAV,Red Claro,Resto de ordenes,DANIEL FRANCISCO TEHERAN LOPERA
 VALLEDUPAR,DOMINION,PM,Instalaciones,Pendiente,FTTH,,False,2026-08-05,CAV,Red Claro,Resto de ordenes,DANIEL FRANCISCO TEHERAN LOPERA
 VALLEDUPAR,DOMINION,AM,Instalaciones,Completado,FTTH,,True,2026-08-05,SAC,Red Claro,Brownfield,HENRY JAIR NAVARRO ACOSTA
@@ -1492,7 +1492,7 @@ VALLEDUPAR,DOMINION,PM,Arreglos,Pendiente,Masivo Bidireccional,,False,2026-08-05
 VALLEDUPAR,DOMINION,PM,Arreglos,Pendiente,Masivo Bidireccional,,False,2026-08-05,,Red Claro,Resto de ordenes,CRISTIAN CAMILO BAQUERO ORDOEZ
 VALLEDUPAR,DOMINION,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,JESUS ALFONZO MAX CORDOBA
 VALLEDUPAR,DOMINION,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,JESUS ALFONZO MAX CORDOBA
-VALLEDUPAR,DOMINION,AM,Arreglos,Iniciado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,JESUS ALFONZO MAX CORDOBA
+VALLEDUPAR,DOMINION,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,JESUS ALFONZO MAX CORDOBA
 VALLEDUPAR,DOMINION,PM,Arreglos,Pendiente,Masivo Bidireccional,,False,2026-08-05,,Red Claro,Resto de ordenes,JESUS ALFONZO MAX CORDOBA
 VALLEDUPAR,DOMINION,PM,Arreglos,Pendiente,Masivo Bidireccional,,False,2026-08-05,,Red Claro,Resto de ordenes,JESUS ALFONZO MAX CORDOBA
 VALLEDUPAR,DOMINION,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,JHON TEILER OSPINO MENDEZ
@@ -1531,7 +1531,7 @@ VALLEDUPAR,DOMINION,PM,Arreglos,Pendiente,Masivo Bidireccional,,False,2026-08-05
 VALLEDUPAR,DOMINION,PM,Arreglos,Pendiente,Masivo Bidireccional,,False,2026-08-05,,Red Claro,Resto de ordenes,CABRERA CABANA HERNAN ENRRIQUE
 VALLEDUPAR,DOMINION,AM,Instalaciones,Completado,Masivo Bidireccional,,True,2026-08-05,CAV,Red Claro,Resto de ordenes,ALDALFONZO NAVARRO ORTIZ
 VALLEDUPAR,DOMINION,AM,Instalaciones,No completado,Masivo Bidireccional,DUCTOS INFRAESTRUCTURA PREDIO NO APTA,True,2026-08-05,PDV,Red Claro,Resto de ordenes,ALDALFONZO NAVARRO ORTIZ
-VALLEDUPAR,DOMINION,PM,Traslados,Pendiente,Masivo Bidireccional,,False,2026-08-05,CAV,Red Claro,Resto de ordenes,ALDALFONZO NAVARRO ORTIZ
+VALLEDUPAR,DOMINION,PM,Traslados,en ruta,Masivo Bidireccional,,False,2026-08-05,CAV,Red Claro,Resto de ordenes,ALDALFONZO NAVARRO ORTIZ
 VALLEDUPAR,DOMINION,PM,Instalaciones,Pendiente,Masivo Bidireccional,,False,2026-08-05,PDV,Red Claro,Resto de ordenes,ALDALFONZO NAVARRO ORTIZ
 VALLEDUPAR,DOMINION,AM,Instalaciones,Completado,Masivo Bidireccional,,True,2026-08-05,CAV,Red Claro,Resto de ordenes,MEDRANO RAMOS WILLIAN JESUS
 VALLEDUPAR,DOMINION,AM,Instalaciones,No completado,Masivo Bidireccional,FUERA ZONA/ SIN COBERTURA RED,True,2026-08-05,CALLE,Red Claro,Resto de ordenes,MEDRANO RAMOS WILLIAN JESUS
@@ -1588,6 +1588,7 @@ BARRANQUILLA,Sin empresa,PM,Arreglos,Cancelado,Masivo Bidireccional,,True,2026-0
 BARRANQUILLA,Sin empresa,PM,Arreglos,Cancelado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,Barranquilla INMEL
 BARRANQUILLA,Sin empresa,PM,Arreglos,Cancelado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,Barranquilla INMEL
 BARRANQUILLA,Sin empresa,AM,Arreglos,Cancelado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,Barranquilla INMEL
+BARRANQUILLA,Sin empresa,PM,Instalaciones,Pendiente,Masivo Bidireccional,,False,2026-08-05,CAV,Red Claro,Resto de ordenes,Barranquilla INMEL
 BARRANQUILLA,INMEL INGENIERIA,AM,Instalaciones,No completado,FTTH,MAL AGENDADO/MAL PROGRAMADO,True,2026-08-05,SAC,Red Claro,Brownfield,ALEXIS MANUEL MORA HERNANDEZ
 BARRANQUILLA,INMEL INGENIERIA,PM,Instalaciones,Iniciado,FTTH,,True,2026-08-05,FIDELIZACION,Red Claro,Brownfield,ALEXIS MANUEL MORA HERNANDEZ
 BARRANQUILLA,INMEL INGENIERIA,AM,Instalaciones,Pendiente,FTTH,,False,2026-08-05,FIDELIZACION,Red Claro,Brownfield,ALEXIS MANUEL MORA HERNANDEZ
@@ -1805,7 +1806,7 @@ BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,
 BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,JELKIN DANIEL PINO MORRON
 BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,No completado,Masivo Bidireccional,CLIENTE NO ATIENDE,True,2026-08-05,,Red Claro,Resto de ordenes,JELKIN DANIEL PINO MORRON
 BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,JELKIN DANIEL PINO MORRON
-BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Iniciado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,JELKIN DANIEL PINO MORRON
+BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,JELKIN DANIEL PINO MORRON
 BARRANQUILLA,INMEL INGENIERIA,PM,Arreglos,Pendiente,Masivo Bidireccional,,False,2026-08-05,,Red Claro,Resto de ordenes,JELKIN DANIEL PINO MORRON
 BARRANQUILLA,INMEL INGENIERIA,PM,Arreglos,Pendiente,Masivo Bidireccional,,False,2026-08-05,,Red Claro,Resto de ordenes,JELKIN DANIEL PINO MORRON
 BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,JOSE DAVID SANJUAN TORRES
@@ -1826,7 +1827,7 @@ BARRANQUILLA,INMEL INGENIERIA,PM,Arreglos,Cancelado,Masivo Bidireccional,,True,2
 BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,KEVIN OSPINO PIEREZ
 BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,KEVIN OSPINO PIEREZ
 BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,KEVIN OSPINO PIEREZ
-BARRANQUILLA,INMEL INGENIERIA,PM,Postventa,Pendiente,Masivo Bidireccional,,False,2026-08-05,OTROS,Red Claro,Resto de ordenes,KEVIN OSPINO PIEREZ
+BARRANQUILLA,INMEL INGENIERIA,PM,Postventa,en ruta,Masivo Bidireccional,,False,2026-08-05,OTROS,Red Claro,Resto de ordenes,KEVIN OSPINO PIEREZ
 BARRANQUILLA,INMEL INGENIERIA,PM,Arreglos,Pendiente,Masivo Bidireccional,,False,2026-08-05,,Red Claro,Resto de ordenes,KEVIN OSPINO PIEREZ
 BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Cancelado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,KEVIN OSPINO PIEREZ
 BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Cancelado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,KEVIN OSPINO PIEREZ
@@ -1841,7 +1842,7 @@ BARRANQUILLA,INMEL INGENIERIA,PM,Arreglos,Pendiente,Masivo Bidireccional,,False,
 BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,PEDRO ANTONIO ARIZA ROSALES
 BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,PEDRO ANTONIO ARIZA ROSALES
 BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,PEDRO ANTONIO ARIZA ROSALES
-BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Iniciado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,PEDRO ANTONIO ARIZA ROSALES
+BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,PEDRO ANTONIO ARIZA ROSALES
 BARRANQUILLA,INMEL INGENIERIA,PM,Arreglos,Pendiente,Masivo Bidireccional,,False,2026-08-05,,Red Claro,Resto de ordenes,PEDRO ANTONIO ARIZA ROSALES
 BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,RAFAEL DAVID CANTILLO YANCE
 BARRANQUILLA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,RAFAEL DAVID CANTILLO YANCE
@@ -1935,7 +1936,7 @@ BARRANQUILLA,INMEL INGENIERIA,AM,Instalaciones,No completado,Masivo Bidirecciona
 BARRANQUILLA,INMEL INGENIERIA,PM,Instalaciones,Pendiente,Masivo Bidireccional,,False,2026-08-05,CALLE,Red Claro,Resto de ordenes,GERSON ENRRIQUE REALES PEREA
 BARRANQUILLA,INMEL INGENIERIA,PM,Instalaciones,Pendiente,Masivo Bidireccional,,False,2026-08-05,TMK OUT BOUND,Red Claro,Resto de ordenes,GERSON ENRRIQUE REALES PEREA
 BARRANQUILLA,INMEL INGENIERIA,AM,Traslados,Completado,Masivo Bidireccional,,True,2026-08-05,CAV,Red Claro,Resto de ordenes,JOSE GABRIEL JIMENEZ BAZANTA
-BARRANQUILLA,INMEL INGENIERIA,AM,Instalaciones,Iniciado,Masivo Bidireccional,,True,2026-08-05,TMK OUT BOUND,Red Claro,Resto de ordenes,JOSE GABRIEL JIMENEZ BAZANTA
+BARRANQUILLA,INMEL INGENIERIA,AM,Instalaciones,Completado,Masivo Bidireccional,,True,2026-08-05,TMK OUT BOUND,Red Claro,Resto de ordenes,JOSE GABRIEL JIMENEZ BAZANTA
 BARRANQUILLA,INMEL INGENIERIA,PM,Traslados,Pendiente,Masivo Bidireccional,,False,2026-08-05,CAV,Red Claro,Resto de ordenes,JOSE GABRIEL JIMENEZ BAZANTA
 BARRANQUILLA,INMEL INGENIERIA,PM,Instalaciones,Pendiente,Masivo Bidireccional,,False,2026-08-05,CAV,Red Claro,Resto de ordenes,JOSE GABRIEL JIMENEZ BAZANTA
 BARRANQUILLA,INMEL INGENIERIA,AM,Traslados,Completado,Masivo Bidireccional,,True,2026-08-05,SAC,Red Claro,Resto de ordenes,JULIO CESAR GOMEZ HERNANDEZ
@@ -2119,7 +2120,7 @@ CARTAGENA,INMEL INGENIERIA,PM,Instalaciones,Pendiente,FTTH,,False,2026-08-05,CAL
 CARTAGENA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,ALCIDES VIOLA TORRES
 CARTAGENA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,ALCIDES VIOLA TORRES
 CARTAGENA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,ALCIDES VIOLA TORRES
-CARTAGENA,INMEL INGENIERIA,PM,Arreglos,Pendiente,Masivo Bidireccional,,False,2026-08-05,,Red Claro,Resto de ordenes,ALCIDES VIOLA TORRES
+CARTAGENA,INMEL INGENIERIA,PM,Arreglos,en ruta,Masivo Bidireccional,,False,2026-08-05,,Red Claro,Resto de ordenes,ALCIDES VIOLA TORRES
 CARTAGENA,INMEL INGENIERIA,PM,Arreglos,Pendiente,Masivo Bidireccional,,False,2026-08-05,,Red Claro,Resto de ordenes,ALCIDES VIOLA TORRES
 CARTAGENA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,AMADOR GUERRERO EDER LUIS
 CARTAGENA,INMEL INGENIERIA,AM,Arreglos,Completado,Masivo Bidireccional,,True,2026-08-05,,Red Claro,Resto de ordenes,AMADOR GUERRERO EDER LUIS
