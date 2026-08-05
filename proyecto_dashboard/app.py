@@ -52,7 +52,10 @@ GRUPO_COLORES = {
 # CARGA DE DATOS
 # ─────────────────────────────────────────────────────────────────────────
 @st.cache_data
-def cargar_datos(path_or_buffer) -> pd.DataFrame:
+def cargar_datos(path_or_buffer, cache_buster=None) -> pd.DataFrame:
+    # `cache_buster` puede ser la mtime del archivo o el tamaño/nombre
+    # de un archivo subido. Se pasa como argumento para que Streamlit
+    # invalide la caché cuando el CSV cambie tras un `git pull`.
     if hasattr(path_or_buffer, "name") and path_or_buffer.name.endswith((".xlsx", ".xls")):
         df = pd.read_excel(path_or_buffer)
     else:
@@ -119,7 +122,19 @@ archivo_subido = st.sidebar.file_uploader(
     ),
 )
 
-df = cargar_datos(archivo_subido) if archivo_subido is not None else cargar_datos(DATA_PATH)
+if archivo_subido is not None:
+    try:
+        ub_size = getattr(archivo_subido, "size", None)
+        cache_key = (archivo_subido.name, ub_size)
+    except Exception:
+        cache_key = getattr(archivo_subido, "name", None)
+    df = cargar_datos(archivo_subido, cache_buster=cache_key)
+else:
+    try:
+        cache_key = DATA_PATH.stat().st_mtime if DATA_PATH.exists() else None
+    except Exception:
+        cache_key = None
+    df = cargar_datos(DATA_PATH, cache_buster=cache_key)
 
 st.sidebar.markdown("---")
 st.sidebar.subheader("Filtros")
